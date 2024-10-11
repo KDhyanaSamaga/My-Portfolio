@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="K Dhyana Samaga - B.E in Artificial Intelligence and Machine Learning">
+    <title>K Dhyana Samaga - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="nav-bar">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#profile-summary">Profile</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#extracurricular">Extracurricular</a></li>
+                        <li><a href="#languages">Languages</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="profile-container">
+                <img id="profile-pic" src="profile.jpg" alt="Profile Picture">
+            </div>
+            <h1>K Dhyana Samaga</h1>
+            <p>B.E in Artificial Intelligence and Machine Learning</p>
+            <p>Srinivas Institute of Technology, Mangalore</p>
+            <a class="contact-link" href="tel:+919481933612">Contact: +91 9481933612</a> |
+            <a class="contact-link" href="https://www.linkedin.com/in/k-dhyana-samaga-a429b1242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Passionate about AI and Mobile Development</p>
+            <a href="#projects" class="cta-button">View My Projects</a> <!-- Call to Action Button -->
+        </div>
+    </section>
+
+    <main>
+        <section id="profile-summary" class="container">
+            <h2>Profile Summary</h2>
+            <p>I am a third-year B.E student in Artificial Intelligence and Machine Learning, passionate about mobile app development and cloud computing. With a solid foundation in C, Java, and Python, I excel in building scalable mobile applications and working with modern databases like MongoDB.</p>
+        </section>
+
+        <section id="education" class="container">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Srinivas Institute of Technology, Mangalore</strong> – B.E in Artificial Intelligence and Machine Learning (2022 – 2026) - Current CGPA: 7.9</li>
+                <li><strong>Vidyodaya PU College, Udupi</strong> (2022) - 80%</li>
+                <li><strong>Anantheshwara English Medium High School, Udupi</strong> (2020) - 92%</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li><i class="fas fa-code"></i> C, Java, Python</li>
+                <li><i class="fab fa-react"></i> React Native</li>
+                <li><i class="fas fa-database"></i> MongoDB</li>
+                <li><strong>Special Interests:</strong> Mobile App Development, Cloud Computing</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <img src="project-thumbnail.jpg" alt="Project Thumbnail">
+                    <h3>Disease Diagnostic App</h3>
+                    <p>A mobile application designed to assist farmers in diagnosing plant diseases using machine learning techniques.</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="container">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Java Specialist Certification (Certiport)</li>
+                <li>C Programming (Ethnotech)</li>
+                <li>MySQL (Ethnotech)</li>
+            </ul>
+        </section>
+
+        <!-- Extracurricular Activities Section -->
+        <section id="extracurricular" class="container">
+            <h2>Extracurricular Activities</h2>
+            <ul>
+                <li>Participated in "Food.Planet.Health" Webinar by Vegan Outreach</li>
+                <li>Engaged in water conservation activities with NSS</li>
+            </ul>
+        </section>
+
+        <!-- Languages Section -->
+        <section id="languages" class="container">
+            <h2>Languages</h2>
+            <ul>
+                <li>English, Kannada, Hindi, Tulu</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="container">
+        <p>Contact: +91 9481933612 | 
+           <a class="contact-link" href="https://www.linkedin.com/in/k-dhyana-samaga-a429b1242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></p>
+    </footer>
+
+    <!-- JavaScript for Profile Picture Interaction -->
+    <script>
+        const profilePic = document.getElementById('profile-pic');
+        profilePic.addEventListener('click', () => {
+            profilePic.classList.toggle('large');
+        });
+    </script>
+
+</body>
+
+</html>
